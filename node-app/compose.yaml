@@ -1,5 +1,14 @@
 services:
-  nginx:
-    image: "nginx:latest"
+  postgres-compose:
+    image: "postgres:17.7-alpine3.22"
     ports:
-      - "8080:80"
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: "nodeapp"
+      POSTGRES_DB: "nodeapp"
+      POSTGRES_PASSWORD: "test123"
+    volumes:
+      - "nodeapp-postgre-volume:/var/lib/postgresql/data"
+
+volumes:
+  nodeapp-postgre-volume:
