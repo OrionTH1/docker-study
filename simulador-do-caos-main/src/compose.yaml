@@ -1,0 +1,6 @@
+services:
+  web:
+    image: "orionth1/stress-test"
+    ports:
+      - "8080:3000"
+    restart: always
