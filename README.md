@@ -1,7 +1,7 @@
 # Docket study
 
-### Sobre o projeto
-O projeto consiste em um aglomerado de projetos que usei para praticar novos conhecimentos que fui adquirindo com meus estudos em docker
+### Sobre o repositório
+O repositório consiste em um aglomerado de projetos que usei para praticar novos conhecimentos que fui adquirindo com meus estudos em docker
 
 Conhecimentos como:
 - Docker containers
